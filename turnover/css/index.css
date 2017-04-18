@@ -1,0 +1,82 @@
+body{
+    background: url(../images/bg.jpg) center center no-repeat;
+    background-size: 100% 100%;
+}
+#wrap {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    width: 560px;
+    height: 560px;
+    opacity: 0.5;
+}
+#wrap div {
+    border-radius: 34px;
+    width: 68px;
+    height: 68px;
+    float: left;
+    cursor: pointer;
+    background-color: rgb(51,244,170);
+    background-color: rgba(51,244,170, 0.8);
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+#tips {
+    position: absolute;
+    top: 10px;
+    width: 150px;
+    text-align: center;
+    left: 130px;
+    color: #FFFFFF;
+    line-height: 30px;
+    height:30px;
+    background-color: black;
+    background-color: rgba(0,0,0, 0.5);
+    border-radius: 10px;
+}
+
+#timer {
+    position: absolute;
+    top: 10px;
+    width: 150px;
+    text-align: center;
+    left: 300px;
+    color: #FFFFFF;
+    line-height: 30px;
+    height:30px;
+    background-color: black;
+    background-color: rgba(0,0,0, 0.5);
+    border-radius: 10px;
+}
+#best {
+    position: absolute;
+    top: 10px;
+    width: 150px;
+    text-align: center;
+    left: 470px;
+    color: #FFFFFF;
+    line-height: 30px;
+    height:30px;
+    background-color: black;
+    background-color: rgba(0,0,0, 0.5);
+    border-radius: 10px;
+}
+
+
+#begin {
+    position: absolute;
+    top: 300px;
+    padding: 0 70px;
+    text-align: center;
+    left: 270px;
+    color: #FFFFFF;
+    line-height: 60px;
+    height:60px;
+    font-size: 22px;
+    letter-spacing: 10px;
+    background-color: black;
+    background-color: rgba(0,0,0, 0.5);
+    border-radius: 10px;
+    cursor: pointer;
+}
